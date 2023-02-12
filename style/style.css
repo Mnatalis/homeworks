@@ -10,3 +10,125 @@ ul, ol {
 a {
     text-decoration: none;
 }
+
+.main{
+    width: 100%;
+    background-color: rgba(196, 196, 196, 1)
+}
+
+.block2 {
+    width: 200px;
+    height: 200px;
+    float: right;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    color: white;
+    text-align: center;
+  line-height: 200px;
+    background-color: rgba(252, 143, 143, 1);
+    margin-top: 50px;
+    margin-right: 50px;
+}
+.block1 {
+    width: 200px;
+    height: 200px;
+    float: left;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    color: white;
+    text-align: center;
+  line-height: 200px;
+    background-color: rgba(252, 143, 143, 1);
+    margin-top: 50px;
+    margin-left: 50px;
+}
+
+.clear {
+    clear: both;
+}
+.block-main {
+    float: right;
+    margin-top: 50px;
+}
+.block3,
+.block4,
+.block22
+{
+    width: 100px;
+    height: 100px;
+    float: left;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    color: white;
+    text-align: center;
+  line-height: 100px;
+    background-color: rgba(252, 143, 143, 1); 
+    margin-left: 15px;
+}
+.block5{
+    width: 100px;
+    height: 100px;
+    float: left;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    color: white;
+    text-align: center;
+  line-height: 100px;
+    background-color: rgba(252, 143, 143, 1); 
+    margin-right: 50px;
+    margin-left: 15px;
+}
+.block33{
+    width: 200px;
+    height: 200px;
+    float: left;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    color: white;
+    text-align: center;
+  line-height: 200px;
+    background-color: rgba(252, 143, 143, 1);
+    margin-bottom: 50px;
+    margin-left: 15px;
+}
+
+.block44{
+    width: 200px;
+    height: 200px;
+    float: left;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    color: white;
+    text-align: center;
+  line-height: 200px;
+    background-color: rgba(252, 143, 143, 1);
+    margin-right: 50px;
+    margin-bottom: 50px;
+    margin-left: 15px;
+
+}
+.block23 {
+    width: 200px;
+    height: 200px;
+    float: left;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    color: white;
+    text-align: center;
+  line-height: 200px;
+    background-color: rgba(252, 143, 143, 1);
+    margin-top: 50px;
+    margin-left: 15px;
+}
+
+.head-main{
+    width: 100%;
+    background-color: gray;
+}
