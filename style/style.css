@@ -9,4 +9,151 @@ ul, ol {
 
 a {
     text-decoration: none;
+   
+}
+.container{
+    max-width: 1110px;
+    margin: 0 auto;
+}
+.menu-item{
+    display: inline-block;
+    margin-right: 43px;
+    margin-top: 79px;
+    font-family: 'Roboto';
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+letter-spacing: 0.1em;
+}
+.item{
+    color: black;
+}
+
+.hero{
+    padding-top: 162px;
+}
+
+.hero-title{
+    font-family: 'Roboto';
+font-weight: 500;
+font-size: 48px;
+line-height: 79px;
+margin-bottom: 60px;
+}
+
+.hero-text{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+margin-bottom: 65px;
+color: rgba(114, 114, 114, 1);
+;
+}
+
+.btn{
+display: block;
+padding-top: 23px;
+padding-left: 35px;
+padding-bottom:  23px;
+padding-right:  35px;
+background: rgba(52, 84, 122, 1);
+margin-bottom: 253px;
+max-width: 226px;
+max-height: 65px;
+
+}
+
+.button{
+    color: white;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.1em;
+}
+
+.about-title{
+    font-family: 'Roboto';
+font-weight: 500;
+font-size: 32px;
+line-height: 38px;
+text-align: center;
+margin-bottom: 50px;
+}
+.about-text{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+text-align: center;
+color: rgba(114, 114, 114, 1);
+margin-bottom: 100px;
+}
+.projects{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: rgba(52, 84, 122, 1);
+}
+.project{
+    margin-left: 48px;
+    margin-right: 0px;
+}
+
+
+.video{
+    width: 1110px;
+    height: 600px;
+}
+.work{
+padding-top: 100px;
+
+}
+.work-title{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 38px;
+text-align: center;
+margin-bottom: 50px;
+}
+
+.work-text{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    margin-bottom: 57px;
+    color: rgba(114, 114, 114, 1);
+    
+}
+
+.footer{
+    background-color: rgba(52, 84, 122, 1);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.footer h2 {
+font-family: 'Roboto';
+font-weight: 500;
+font-size: 21px;
+line-height: 25px;
+color: white;
+margin-bottom: 20px;
+}
+
+.footer p{
+    font-family: 'Roboto';
+font-weight: 400;
+font-size: 13px;
+line-height: 21px;
+color: white;
 }
