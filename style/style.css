@@ -10,3 +10,50 @@ ul, ol {
 a {
     text-decoration: none;
 }
+
+.main {
+    width: 1280px;
+    height: 500px;
+    background-image:url(../images/brooke-lark-08bOYnH_r_E-unsplash\ 1.jpg);
+    contain: content;
+
+}
+.title{
+    font-family: 'Cormorant';
+font-style: normal;
+font-weight: 700;
+font-size: 50px;
+line-height: 61px;
+color: #1F1F1F;
+margin-top: 125px;
+margin-bottom: 5px;
+margin-left: 61px;
+}
+.text {
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 300;
+font-size: 26px;
+line-height: 39px;
+color: #1F1F1F;
+margin-bottom: 40px;
+margin-left: 61px;
+}
+
+.btn a{
+    padding: 8px 36px;
+    background: rgba(255, 129, 38, 1);
+    display: block;
+    border-radius: 5px;
+    width: 200px;
+    height: 45px;
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 27px;
+color: white;
+margin-left: 61px;
+margin-bottom: 195px;
+}
+
