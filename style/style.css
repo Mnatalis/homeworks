@@ -24,11 +24,32 @@ font-weight: 400;
 font-size: 16px;
 line-height: 26px;
 letter-spacing: 0.1em;
+position: relative;
 }
 .item{
     color: black;
 }
+.item:hover{
+    color:  rgb(11, 22, 172); 
+}
+.menu-item.activ::before{
+    position: absolute;
+   content: '';
+   height: 2px;
+   width: 100%;
+   background: black;
+   bottom: 0;
+}
 
+.menu-item:hover:before{
+    position: absolute;
+   content: '';
+   height: 2px;
+   width: 100%;
+   background: black;
+   bottom: 0;
+  
+}
 .hero{
     padding-top: 162px;
 }
@@ -49,7 +70,6 @@ font-size: 16px;
 line-height: 26px;
 margin-bottom: 65px;
 color: rgba(114, 114, 114, 1);
-;
 }
 
 .btn{
@@ -62,6 +82,13 @@ background: rgba(52, 84, 122, 1);
 margin-bottom: 253px;
 max-width: 226px;
 max-height: 65px;
+cursor: pointer;
+}
+
+.btn:hover{
+border: 2px solid rgb(17, 16, 16);
+border-radius: 10px;
+box-shadow: 0px 5px 2px rgba(0, 0, 0, 0.2);
 
 }
 
