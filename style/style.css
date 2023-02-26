@@ -132,10 +132,6 @@ margin-bottom: 100px;
 }
 
 
-.video{
-    width: 1110px;
-    height: 600px;
-}
 .work{
 padding-top: 100px;
 background-color: rgba(238, 239, 241, 1);
@@ -164,6 +160,8 @@ margin-bottom: 50px;
 }
 
 .video{
+    width: 1110px;
+    height: 600px;
     position: relative;
     margin-bottom: 100px;
 }
