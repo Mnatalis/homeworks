@@ -111,7 +111,8 @@ margin-bottom: 100px;
 }
 .work{
 padding-top: 100px;
-
+background-color: rgba(238, 239, 241, 1);
+;
 }
 .work-title{
     font-family: 'Roboto';
@@ -133,6 +134,17 @@ margin-bottom: 50px;
     margin-bottom: 57px;
     color: rgba(114, 114, 114, 1);
     
+}
+
+.video{
+    position: relative;
+    margin-bottom: 100px;
+}
+
+.play-button{
+    position: absolute;
+    bottom: 10%;
+    left:49%
 }
 
 .footer{
