@@ -7,6 +7,194 @@ ul, ol {
     list-style: none;
 }
 
+.container {
+    width: 1110px;
+    margin-right: auto;
+    margin-left: auto;
+    align-items: center;
+}
+
 a {
     text-decoration: none;
 }
+body{
+    background-color: #E5E5E5;
+}
+
+/* .header {
+   
+} */
+.header-nav{
+    display: flex;
+    margin-right: auto;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 16px;
+    margin-bottom: 17px;
+    font-family: Roboto;
+font-size: 14px;
+font-weight: 400;
+line-height: 16px;
+letter-spacing: 0em;
+
+
+}
+.logo {
+    background-color: white;
+    padding-top: 41px;
+    padding-bottom: 45px;
+}
+.logo-beauty{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  
+}
+
+.navigation {
+    background-color: white;
+    border-top: 1px solid  #E5E5E5;
+}
+
+.list-navigation{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    padding-top: 25px;
+    padding-bottom: 30px;
+}
+.hero {
+    background-image: url(../images/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 1920px;
+    padding-top: 192px;
+    padding-bottom: 192px;
+   
+}
+.hero-title{
+    color: white;
+    font-family: Roboto;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+    letter-spacing: 0.05em;
+}
+.hero-text{
+margin-top: 50px;
+margin-bottom: 50px;
+  color: white;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+}
+.btn-hero a{
+
+border: 0 solid white;
+color: white;
+border-radius: 20px;
+background: rgba(241, 60, 110, 1);
+padding: 12px 49px;
+font-size: 14px;
+display: block;
+outline: none;
+font-family: Roboto;
+font-weight: 400;
+line-height: 20px;
+}
+
+.impuls-list{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+
+.impuls-item{
+    background-color: white;
+    padding: 35px 62px;
+    border: 1px solid #E5E5E5;
+}
+.viewed{
+    padding-bottom: 81px;
+    border-bottom: 1px solid #E5E5E5;
+}
+.viewed-title{
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    margin-top: 80px;
+    margin-left: 38px;
+}
+.viewed-list{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.viewed-item{
+    width: 255px;
+    background-color: white;
+    text-align: center;
+}
+.viewed-img{
+    margin: 25px 65px;
+}
+.viewed-title{
+    margin-top: 80px;
+    margin-bottom: 38px;
+}
+.viewed-text{
+    margin: 20px 30px;
+}
+.btn-viewed a{
+    margin: 20px 25px;
+    padding: 9px 40px;
+background: rgba(241, 60, 110, 1);
+color: white;
+border-radius: 20px;
+display: block;
+}
+.proposial-list{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.proposial-item{
+    width: 255px;
+    background-color: white;
+    text-align: center;
+}
+.proposial-img{
+    margin: 25px 65px;
+}
+.proposial-title{
+    margin-top: 80px;
+    margin-bottom: 38px;
+}
+.proposial-text{
+    margin: 20px 30px;
+}
+.btn-proposial a{
+    margin: 20px 25px;
+    padding: 9px 40px;
+background: rgba(241, 60, 110, 1);
+color: white;
+border-radius: 20px;
+display: block;
+}
+.category {
+    background-color: white;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.category-list{
+    display: flex;
+    gap: 186px;
+   
+}
+.contacts {
+    background-color: white;
+}
+/* .footer {
+} */
