@@ -13,17 +13,19 @@ ul, ol {
     margin-left: auto;
     align-items: center;
 }
-
+button{
+    border: none;
+    background: none;
+}
 a {
     text-decoration: none;
 }
 body{
     background-color: #E5E5E5;
+    font-family: "Roboto", sans-serif;
 }
 
-/* .header {
-   
-} */
+/* /------------HEADER----------------/ */
 .header-nav{
     display: flex;
     margin-right: auto;
@@ -31,14 +33,17 @@ body{
     gap: 30px;
     margin-top: 16px;
     margin-bottom: 17px;
-    font-family: Roboto;
-font-size: 14px;
-font-weight: 400;
-line-height: 16px;
-letter-spacing: 0em;
-
-
+    
 }
+.header-nav a{
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0em;
+    color: rgba(51, 51, 51, 1);
+}
+/* /------------LOGO----------------/ */
 .logo {
     background-color: white;
     padding-top: 41px;
@@ -50,7 +55,7 @@ letter-spacing: 0em;
     margin-right: auto;
   
 }
-
+/* /------------NAVIGATION----------------/ */
 .navigation {
     background-color: white;
     border-top: 1px solid  #E5E5E5;
@@ -61,39 +66,46 @@ letter-spacing: 0em;
     gap: 40px;
     justify-content: center;
     padding-top: 25px;
-    padding-bottom: 30px;
-}
+    padding-bottom: 30px;}
+    .list-navigation a{
+        color: rgba(0, 0, 0, 1);
+        font-size: 16px;
+        font-weight: 400px;
+    }  
+
+
+/* /------------HERO----------------/ */
 .hero {
-    background-image: url(../images/background.png);
+
+    background-image: 
+    url(../images/background.png);
     background-repeat: no-repeat;
     background-size: cover;
-  
+    max-width: 1920px;
+    margin: 0 auto;
     padding-top: 192px;
     padding-bottom: 192px;
    
 }
 .hero-title{
     color: white;
-    font-family: Roboto;
     font-size: 48px;
     font-weight: 700;
     line-height: 56px;
-    letter-spacing: 0.05em;
+    
 }
 .hero-text{
 margin-top: 50px;
 margin-bottom: 50px;
   color: white;
-  font-family: Roboto;
   font-size: 14px;
   font-weight: 400;
   line-height: 20px;
 }
 .btn-hero a{
-
-border: 0 solid white;
+border: 1px solid white;
 color: white;
-border-radius: 20px;
+border-radius: 40px;
 background: rgba(241, 60, 110, 1);
 padding: 12px 49px;
 font-size: 14px;
@@ -103,7 +115,114 @@ font-family: Roboto;
 font-weight: 400;
 line-height: 20px;
 }
+/* /------------PROPOSIAL----------------/ */
 
+.proposial-list{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.proposial-item{
+    width: 255px;
+    background-color: white;
+    text-align: center;
+}
+.proposial-img{
+    margin: 25px 65px;
+}
+.proposial-title{
+    margin-top: 80px;
+    margin-bottom: 38px;
+}
+.proposial-text{
+    margin: 20px 30px;
+    font-size: 14px;
+    font-weight: 400;
+}
+.proposial-text h3{
+    font-size: 21px;
+    font-weight: 400;
+}
+
+.btn-proposial a{
+    margin: 20px 30px;
+    padding: 9px 40px;
+background: rgba(241, 60, 110, 1);
+color: white;
+border-radius: 20px;
+display: block;       
+} 
+
+/* /------------INVITE----------------/ */
+
+.invite{
+    padding-top: 100px;
+ 
+}
+.invite-list{
+    display: flex;
+    gap: 30px;
+}
+
+.invite-item{
+    background:  rgba(241, 60, 110, 1);
+    color: white;
+  display: flex;
+  gap: 45px;
+}
+
+.invite-title{
+    margin: 35px 0px 25px 40px;
+    font-size: 18px;
+    font-weight: 700;
+}
+.invite-text{
+    margin: 25px 0px 25px 40px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.btn-invite{
+    font-size: 14px;
+    font-weight: 400;
+    color: white;
+    margin-bottom: 35px;
+    margin-left: 40px;
+}
+.btn-invite a{
+    border: 1px solid white;
+    color: white;
+    border-radius: 40px;
+    background: rgba(241, 60, 110, 1);
+    padding: 9px 28px;
+    font-size: 14px;
+    display: block;
+    outline: none;
+    max-width: 175px;
+    height: 35px;
+    font-family: Roboto;
+    font-weight: 400;
+    line-height: 14px;
+   
+    }
+
+form input{
+    margin: 25px 90px 35px 40px;
+    border-radius: 10px;
+}
+
+.invite-svg{
+    margin-top: 53px;
+    margin-right: 35px;
+}
+
+.invite-svg-svg{
+    margin-top: 53px;
+margin-right: 78px;
+}
+
+
+/* /------------IMPULS----------------/ */
 .impuls-list{
     display: flex;
     flex-wrap: wrap;
@@ -114,7 +233,12 @@ line-height: 20px;
     background-color: white;
     padding: 35px 62px;
     border: 1px solid #E5E5E5;
+    cursor: pointer;
 }
+
+
+
+/* /------------VIEWED----------------/ */
 .viewed{
     padding-bottom: 81px;
     border-bottom: 1px solid #E5E5E5;
@@ -146,6 +270,12 @@ line-height: 20px;
 }
 .viewed-text{
     margin: 20px 30px;
+    font-size: 14px;
+    font-weight: 400;
+}
+.viewed-text h3{
+    font-size: 21px;
+    font-weight: 400;
 }
 .btn-viewed a{
     margin: 20px 25px;
@@ -154,35 +284,11 @@ background: rgba(241, 60, 110, 1);
 color: white;
 border-radius: 20px;
 display: block;
+font-size: 14px;
+    font-weight: 400;
 }
-.proposial-list{
-    display: flex;
-    justify-content: center;
-    gap: 30px;
-}
-.proposial-item{
-    width: 255px;
-    background-color: white;
-    text-align: center;
-}
-.proposial-img{
-    margin: 25px 65px;
-}
-.proposial-title{
-    margin-top: 80px;
-    margin-bottom: 38px;
-}
-.proposial-text{
-    margin: 20px 30px;
-}
-.btn-proposial a{
-    margin: 20px 25px;
-    padding: 9px 40px;
-background: rgba(241, 60, 110, 1);
-color: white;
-border-radius: 20px;
-display: block;
-}
+
+/* /------------CATEGORY----------------/ */
 .category {
     background-color: white;
     padding-top: 60px;
@@ -193,8 +299,116 @@ display: block;
     gap: 186px;
    
 }
+.category-title{
+    border-bottom: 1px solid  #E5E5E5;
+    padding-bottom: 30px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.category-text,
+.category-text1
+ {
+    margin-top: 15px;
+  
+}
+.category-text a{ 
+    color: rgba(130, 130, 130, 1);
+    font-size: 12px;
+    font-weight: 400;
+}
+.category-text1 a{
+    
+    color: rgba(130, 130, 130, 1);
+    font-size: 12px;
+    font-weight: 400;
+}
+
+/* /------------CONTACTS----------------/ */
+
+
 .contacts {
     background-color: white;
+    padding-bottom: 40px;
 }
-/* .footer {
-} */
+
+.contacts-item{
+    display: flex;
+    align-items: center;
+}
+
+.soc-list{
+    display: flex;
+    gap: 20px;
+} 
+
+.phone a{
+margin-left: 504px;
+margin-right: 40px;
+font-size: 16px;
+font-weight: 400px;
+color: rgba(0, 0, 0, 1);
+}
+
+.btn-contacts a{
+    border: 1px solid rgba(241, 60, 110, 1);
+    color: rgba(0, 0, 0, 1);
+    border-radius: 40px;
+    background: white;
+    padding: 8px 28px;
+    font-size: 14px;
+    display: block;
+    outline: none;
+    max-width: 180px;
+    height: 40px;
+    font-family: Roboto;
+    font-weight: 400;
+   
+    }
+
+
+    .soc-link{
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+        border: 2px solid rgba(241, 60, 110, 1);
+        background-color: #FFFFFF;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0px 9px 0px 9px;
+    }
+/* /------------FOOOTER----------------/ */
+ .footer {
+display: flex;
+gap: 345px;
+padding: 25px 0px;
+ }
+
+.footer-text a,
+.footer-text
+{
+    font-size: 12px;
+    font-weight: 400;
+    color: rgba(130, 130, 130, 1);
+    
+}
+
+.invite-input {
+    width: 225px;
+    height: 35px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 30px;
+    padding-left: 16px;
+    margin-right: 12px;
+    background-color: white;
+    color: #FFFFFF;
+    margin-top: 0px;
+        padding-top: 0px;
+        font-size: 14px;
+        font-weight: 400px;
+        color: rgba(196, 196, 196, 1);
+        
+}
+
+
